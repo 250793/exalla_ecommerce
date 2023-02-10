@@ -1,0 +1,105 @@
+<nav class="uk-navbar-container " uk-navbar>
+  <div class="uk-navbar-left uk-margin-auto">
+    <ul class="uk-navbar-nav uk-flex-middle">
+      <li class="uk-active"><a [routerLink]="['']">Home</a></li>
+      <li>
+        <a href="#">Departamentos</a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li *ngFor="let d of departments" class="uk-position-relative">
+              <a (click)="this.onClick(d.id)" href="#">{{ d.description }}</a>
+              <div
+                class="uk-navbar-dropdown"
+                uk-dropdown="pos: right-top; delay-hide: 20000; animation: uk-animation-slide-left-small; duration: 100; offset: 30"
+              >
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li *ngFor="let s of d.sub_groups" ><a (click)="this.onClick(d.id, s.id)">{{ s.description }}</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="#">Produtos</a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li><a [routerLink]="['/produtos']">Lista de Produtos</a></li>
+
+            <li> </li>
+            <li><a [routerLink]="['/recommend']">Produtos Recomendados</a></li>
+            <li><a [routerLink]="['/fresch-vegan']">Produtos Exclusivos</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="#">Confira o seu Pedido</a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li><a [routerLink]="['/cart']">Carrinho</a></li>
+            <li><a [routerLink]="['/checkout']">Acompanhe</a></li>
+            <li><a [routerLink]="['/successful']">Concluído</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="#">Meus Pedidos</a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li><a [routerLink]="['/my-order']">Status do Pedido</a></li>
+            <li><a [routerLink]="['/status-complete']">Confirmado</a></li>
+            <li><a [routerLink]="['/status-onprocess']">Em Separação</a></li>
+            <li><a [routerLink]="['/status-canceled']">Cancelado</a></li>
+            <li><a [routerLink]="['/review']">Pesquisa de Satisfação</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="#">Veja Também</a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <div class="rede-social uk-flex">
+              <a href="https://www.facebook.com/exallacosmeticos/" class="icone-rede-social btn btn-icon btn-light"><i class="icofont-facebook"></i></a>
+              <a href="https://www.facebook.com/exallacosmeticos/" class="descricao-rede-social">Facebook.com</a>
+            </div>
+            <div class="rede-social uk-flex">
+              <a href="https://twitter.com/exallabeleza" class="icone-rede-social btn btn-icon btn-light"><i class="icofont-twitter"></i></a>
+              <a href="https://twitter.com/exallabeleza" class="descricao-rede-social">Twitter.com</a>
+            </div>
+            <div class="rede-social uk-flex">
+              <a href="https://www.instagram.com/exallacosmeticos/" class="icone-rede-social btn btn-icon btn-light"><i class="icofont-instagram"></i></a>
+              <a href="https://www.instagram.com/exallacosmeticos/" class="descricao-rede-social">Instagram</a>
+            </div>
+            <!-- <li><a [routerLink]="['/promos']">Campanhas</a></li>
+            <li>
+              <a [routerLink]="['/promo-details']">Detalhes da Promoção</a>
+            </li>
+            <li>
+              <a [routerLink]="['/terms-conditions']">Termos e Condições</a>
+            </li>
+            <li><a [routerLink]="['/privacy']">Privacidade</a></li>
+            <li><a [routerLink]="['/help-support']">Suporte</a></li>
+            <li><a [routerLink]="['/help-ticket']">Sugestões</a></li>
+            <li>
+              <a [routerLink]="['/refund-payment']">Devolução de Pagamento</a>
+            </li>
+            <li><a [routerLink]="['/faq']">Nossas Lojas</a></li>
+            <li><a [routerLink]="['/signin']">Acessar</a></li>
+            <li><a [routerLink]="['/signup']">Sair</a></li>
+            <li><a [routerLink]="['/search']">Pesquisar</a></li> -->
+          </ul>
+        </div>
+      </li>
+      <div class="uk-navbar-left">
+        <div class="list-unstyled form-inline mb-0 ml-auto">
+          <a [routerLink]="['/ofertas']" class="text-white px-3 py-2"
+            >OFERTAS DO DIA
+          </a>
+          <a [routerLink]="['/promos']" class="text-white bg-offer px-3 py-2"
+            ><i class="icofont-sale-discount h6"></i>PROMOÇÕES</a
+          >
+        </div>
+      </div>
+    </ul>
+  </div>
+</nav>

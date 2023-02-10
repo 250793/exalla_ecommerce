@@ -1,0 +1,12 @@
+.vantagens{
+  padding-top: 20px;
+}
+
+@media(max-width: 650px) {
+  .vantagens > img {
+    width: 125vh;
+  }
+  .vantagens{
+    padding-top: 10px;
+  }
+}

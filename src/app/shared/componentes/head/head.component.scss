@@ -1,0 +1,104 @@
+
+.row{
+  justify-content:space-evenly;
+  font-size: 15px;
+}
+.mr-sm-5, .mx-sm-5{
+  margin-right: 12rem!important;
+}
+.text{
+   color: deeppink;
+
+}
+.frete{
+  margin-left: 10px;
+}
+
+@media (max-width: 450px) {
+  .top-bar {
+    display: none;
+  }
+}
+.dropdown-menu {
+  display: flex;
+  width: 14rem;
+  padding-top: 10px;
+
+}
+
+.not-register {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+.my-account{
+  font-size: 14px;
+
+}
+.button-my-account{
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+  border-radius: 7px;
+  color: white;
+  background-color: #702e2e;
+  border: #702e2e;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+
+}
+.not-register{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1px;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: -10px;
+}
+.not-register h5{
+  font-size: 13px;
+  margin-top: 6px;
+  color: gray;
+}
+.link{
+  color: gray;
+  padding: 3px;
+  margin-bottom: 1px;
+
+}
+
+.link:hover{
+  color:blue;
+
+}
+.pesquisa {
+  position: absolute;
+  border: 1px solid;
+  background-color: #ffff;
+  z-index: 999999;
+  width: 430px;
+  border-radius: 5px;
+}
+.uk-badge{
+  margin-top: -34px;
+    margin-left: -11px;
+}
+
+@media(max-width: 650px) {
+  .top-bar {
+    display: none;
+  }
+
+  .pesquisa {
+    width: 360px;
+  }
+}
+
+@media(max-width: 880px) {
+  .menu-bar {
+    display: none;
+  }
+}

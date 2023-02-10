@@ -1,0 +1,47 @@
+<div class="barra-pesquisa ">
+  <ul>
+    <li class="lista">
+      <div *ngFor="let p of products" class="produto uk-padding-small border-bottom" tabindex="0">
+        <div class=" card-produto uk-flex uk-flex-row-reverse uk-flex-between">
+          <div *ngIf="p.desconto" class="desconto position-absolute">
+            <p>
+              <span>{{p.desconto}}%</span>
+              OFF
+            </p>
+          </div>
+          <div class="toda-caixa">
+            <a (click)="buscar('/product-details', p.cod_produto)">
+            <!-- <a  [routerLink]="['/product-details',p.cod_produto]"> -->
+              <img class="imagem order-0"  src="{{ p.imagens[0] }}" alt=""
+                onerror="this.src='https://www.bstest.com.br/wp-content/uploads/2019/09/produto-sem-imagem-1000x1000.jpg'" />
+            </a>
+          </div>
+          <div class="descricao-valor ">
+            <div>
+              <a (click)="buscar('/product-details', p.cod_produto)" class="text-dark">
+                <h4   class="nome-produto">{{p.descricao_marca}}</h4>
+                </a>
+            </div>
+            <a style="min-height: 70px;" (click)="buscar('/product-details', p.cod_produto)" class="informação-produto">
+              <h6>{{p.descricao}}</h6>
+            </a>
+            <span class="uk-text-meta">{{p.codigo_barras}}</span>
+            <div class="preco ">
+              <div *ngIf="p.desconto" >
+                <span class="preco-max uk-text-small">De: {{parseValue(p.preco_tabela)}}</span>
+              </div>
+              <a (click)="buscar('/product-details', p.cod_produto)">
+                <div>
+                  <h5 class="price m-0 text-success uk-text-bolder">Por: {{parseValue(p.preco_venda)}}</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="ver-mais">
+    <a [search]="search" (click)="buscar()"> <span>VER TODOS OS PRODUTOS </span></a>
+  </div>
+</div>

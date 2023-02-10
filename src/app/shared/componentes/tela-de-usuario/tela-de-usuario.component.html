@@ -1,0 +1,55 @@
+<div class=" uk-width-medium uk-margin-medium-right">
+  <div class="osahan-account bg-white rounded shadow-sm overflow-hidden">
+     <div class="p-4 profile text-center border-bottom">
+        <img src="assets/icons/usuarios.png" class="img-fluid rounded-pill">
+        <h6 class="font-weight-bold m-0 mt-2"> {{ this.socialLoginService.getAccount()?.name }} </h6>
+        <p class="small text-muted m-0"> {{ this.socialLoginService.getAccount()?.email }} </p>
+     </div>
+     <div class="account-sections">
+        <ul class="list-group">
+           <a [routerLink]="['/my-account']" class="text-decoration-none text-dark">
+              <li class="border-bottom bg-white d-flex align-items-center p-3">
+                 <i class="icofont-user osahan-icofont bg-danger"></i>Minha Conta
+                 <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+              </li>
+           </a>
+           <a [routerLink]="['/my-address']" class="text-decoration-none text-dark">
+            <li class="border-bottom bg-white d-flex align-items-center p-3">
+               <i class="icofont-address-book osahan-icofont bg-dark"></i>Meus Endereços
+               <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+            </li>
+         </a>
+           <a [routerLink]="['/promos']" class="text-decoration-none text-dark">
+              <li class="border-bottom bg-white d-flex align-items-center p-3">
+                 <i class="icofont-sale-discount osahan-icofont bg-success"></i>Campanhas
+                 <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+              </li>
+           </a>
+
+           <a [routerLink]="['/terms_conditions']" class="text-decoration-none text-dark">
+              <li class="border-bottom bg-white d-flex align-items-center p-3">
+                 <i class="icofont-info-circle osahan-icofont bg-primary"></i>Termos, Privacidade e Políticas
+                 <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+              </li>
+           </a>
+           <a [routerLink]="['/help-support']" class="text-decoration-none text-dark">
+              <li class="border-bottom bg-white d-flex align-items-center p-3">
+                 <i class="icofont-phone osahan-icofont bg-warning"></i>Suporte
+                 <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+              </li>
+           </a>
+           <a [routerLink]="['/help-ticket']" class="text-decoration-none text-dark">
+              <li class="border-bottom bg-white d-flex align-items-center p-3">
+                 <i class="icofont-phone osahan-icofont bg-success"></i>Sugestões
+                 <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+              </li>
+           </a>
+           <a  (click)="logOut()" class="text-decoration-none text-dark">
+              <li  class="border-bottom bg-white d-flex  align-items-center p-3">
+                 <i class="icofont-lock osahan-icofont bg-danger"></i> Sair
+              </li>
+           </a>
+        </ul>
+     </div>
+  </div>
+</div>

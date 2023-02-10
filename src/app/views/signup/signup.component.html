@@ -1,0 +1,108 @@
+<div class="fixed-bottom-padding">
+  <!-- sign up -->
+  <section class="osahan-main-body">
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-center vh-100">
+        <div class="landing-page shadow-sm bg-danger-custom col-lg-6">
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+            <a class="position-absolute btn-sm btn btn-outline-light m-4 zindex" [routerLink]="['']">Entrar sem cadastro
+              <i class="icofont-bubble-right"></i></a> <!-- slider -->
+            <div class="osahan-slider m-0">
+              <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 0">
+                <li class="uk-width-1-1">
+                  <div class="uk-cover-container">
+                    <div class="uk-position-center uk-panel uk-text-center">
+                      <i class="icofont-sale-discount display-1 text-white"></i>
+                      <h4 class="my-4 text-white">Melhores Preços e Ofertas </h4>
+                      <p class="text-center text-white mb-5 px-4">Produtos profissionais, Cosméticos Cursos e
+                        Treinamentos</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="uk-width-1-1">
+                  <div class="uk-cover-container">
+                    <div class="uk-position-center uk-panel uk-text-center">
+                      <i class="icofont-cart display-1 text-white"></i>
+                      <h4 class="my-4 text-white">Grande Variedade</h4>
+                      <p class="text-center text-white mb-5 px-4">Temos um mix de mais de 12 mil produtos <br /> <br />
+                        <br />
+                        para atendermos a você, um profissional da beleza ou consumidor do dia a dia</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slider-item="next"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 pl-lg-5">
+          <div class="shadow bg-white p-4 rounded">
+            <h2 class="my-0">Vamos Começar</h2>
+            <p class="small mb-4">Crie uma conta para ver nossas principais opções para você!</p>
+            <form class="formulario" [formGroup]="formSignup" (submit)="signUp()">
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input formControlName="name" placeholder="Nome" type="text" class="form-control" id="name"
+                  aria-describedby="emailHelp" required>
+              </div>
+              <div class="form-group">
+                <label for="number">CPF/CNPJ</label>
+                <input formControlName="cpf_cnpj" placeholder="CPF/CNPJ" type="text" class="form-control" id="number"
+                  mask="000.000.000-00||00.000.000/0000-00">
+                <small class="alerta"
+                  *ngIf="this.formSignup.controls['cpf_cnpj'].value && this.formSignup.controls['cpf_cnpj'].errors">Insera
+                  CPF/CNPJ correto</small>
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input formControlName="phone" placeholder="Telefone" type="text" class="form-control" id="telefone"
+                  prefix="+55" mask="(00) 00000-0000">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input formControlName="email" placeholder="Email" type="email" class="form-control" id="email"
+                  aria-describedby="emailHelp">
+                <small class="alerta"
+                  *ngIf="this.formSignup.controls['email'].value && this.formSignup.controls['email'].status === 'INVALID'">Insera
+                  um Email válido</small>
+
+              </div>
+              <div class="form-group">
+                <label for="password">Senha</label>
+                <input formControlName="password" placeholder="Senha" type="password" class="form-control"
+                  id="password">
+              </div>
+              <div class="form-group">
+                <label for="confirmaçãopassword">Confirmar Senha</label>
+                <input formControlName="confirmar" placeholder="Confirmar Senha" type="password" class="form-control"
+                  id="confirmaçãopassword">
+                <small class="alerta"
+                  *ngIf="this.formSignup.controls['confirmar'].value !== this.formSignup.controls['password'].value">Senhas
+                  não são compatíveis</small>
+              </div>
+              <div class="form-group">
+                <label for="gênero">Gênero</label>
+                <label><input class="uk-radio" type="radio" value="M" name="genero" formControlName="genero" checked> Masculino</label>
+                <label><input class="uk-radio" type="radio" value="F" name="genero" formControlName="genero"> Feminino</label>
+              </div>
+              <button type="submit" class="btn btn-success rounded btn-lg btn-block">Criar conta</button>
+            </form>
+            <p class="text-muted text-center small py-2 m-0">ou</p>
+            <a (click)="signIn('facebook')" class="btn btn-dark btn-block rounded btn-lg btn-facebook">
+              <i class="" uk-icon="facebook"></i> Inscreva-se com o Facebook
+            </a>
+            <a (click)="signIn('google')" class="btn btn-light border btn-block rounded btn-lg btn-google">
+              <i class="icofont-google-plus text-danger mr-2"></i> Inscreva-se com a Google
+            </a>
+            <p class="text-center mt-3 mb-0"><a [routerLink]="['/signin']" class="text-dark">Já tem uma conta!
+                Entrar</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,53 @@
+<body class="fixed-bottom-padding">
+  <!-- bread_cum -->
+  <nav aria-label="breadcrumb" class="breadcrumb mb-0">
+    <div class="container">
+       <ol class="d-flex align-items-center mb-0 p-0">
+          <li class="breadcrumb-item"><a [routerLink]="['']" class="text-success">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Suporte</li>
+       </ol>
+    </div>
+ </nav>
+ <!-- body -->
+ <section class="py-4 osahan-main-body">
+    <div class="container">
+       <div class="row">
+         <app-tela-de-usuario></app-tela-de-usuario>
+          <div class="col-lg-8 p-4 bg-white rounded shadow-sm">
+             <h4 class="mb-4 profile-title">Suporte</h4>
+             <div class="help_support">
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Como verificar o status do meu pedido
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Alterar itens no meu pedido
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Cancelar meu pedido
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Alterar meu endereço de entrega
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Ajuda com um pedido de retirada
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Meu entregador me deixou inseguro
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+                <a [routerLink]="['/refund-payment']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100 mb-1" type="button">
+                  Pagamento de reembolso
+                <i class="text-success icofont-rounded-right ml-auto"></i>
+                </button></a>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+</body>
+

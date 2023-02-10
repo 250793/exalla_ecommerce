@@ -1,0 +1,105 @@
+<body class="fixed-bottom-padding">
+  <!-- <div class="top-bar">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-6">
+             <ul class="l-top">
+              <li>
+                <a [routerLink]="['']"
+                  ><i class="icofont-checked"></i> Comodidade e Qualidade</a
+                >
+              </li>
+              <li>
+                <a [routerLink]="['']"
+                  ><i class="icofont-checked"></i> Rapidez na Entrega</a
+                >
+              </li>
+              <li>
+                <a [routerLink]="['']"
+                  ><i class="icofont-checked"></i> Melhores Produtos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="r-top">
+              <li>
+                <a [routerLink]="['']"
+                  ><i class="icofont-headphone-alt"></i> Contato :
+                  (85)2525-2020</a
+                >
+              </li>
+            </ul>
+          </div>
+       </div>
+    </div>
+ </div> -->
+
+  <section class="osahan-main-body osahan-signin-main">
+    <div class="container">
+       <div class="row d-flex align-items-center justify-content-center vh-100">
+        <div class="landing-page shadow-sm bg-danger-custom col-lg-6">
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+            <a class="position-absolute btn-sm btn btn-outline-light m-4 zindex" [routerLink]="['']">Entrar sem Cadastro <i class="icofont-bubble-right"></i></a>
+            <div class="osahan-slider m-0">
+              <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 0">
+                <li class="uk-width-1-1">
+                    <div class="uk-cover-container">
+                        <div class="uk-position-center uk-panel uk-text-center">
+                          <i class="icofont-sale-discount display-1 text-white"></i>
+                      <h4 class="my-4 text-white">Melhores Preços e Ofertas </h4>
+                      <p class="text-center text-white mb-5 px-4">Produtos profissionais, Cosméticos Cursos e Treinamentos</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-1-1">
+                  <div class="uk-cover-container">
+                      <div class="uk-position-center uk-panel uk-text-center">
+                        <i class="icofont-cart display-1 text-white"></i>
+                        <h4 class="my-4 text-white">Grande Variedade</h4>
+                        <p class="text-center text-white mb-5 px-4">Temos um mix de mais de 12 mil produtos<br>para atendermos a você, um profissional da beleza ou consumidor do dia a dia</p>
+                      </div>
+                  </div>
+              </li>
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+        </div>
+      </div>
+          <div class="col-lg-6 pl-lg-5" >
+             <div class="osahan-signin shadow-sm bg-white p-4 rounded">
+                <div class="p-3">
+                   <h2 class="my-0">Seja Bem-vindo</h2>
+                   <p class="small mb-4">Acesse para continuar.</p>
+                   <form [formGroup]="formSignin" (submit)="signIn('credentials')">
+                      <div class="form-group">
+                         <label for="email">Email</label>
+                         <input formControlName="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                         <label for="password">Senha</label>
+                         <input formControlName="password" type="password" class="form-control" id="password">
+                      </div>
+                      <div (click)="handleDismissError()" *ngIf="this.errorService.isError()" class="auth-error">
+                        <span>{{ handleError(this.errorService.getName()) }}</span>
+                      </div>
+                      <button type="submit" class="btn btn-success btn-lg rounded btn-block">Acessar</button>
+                   </form>
+                   <p class="text-muted text-center small m-0 py-3">ou</p>
+                   <a (click)="signIn('facebook')" class=" btn btn-dark btn-block rounded btn-lg btn-facebook">
+                   <i class=""uk-icon="facebook"></i> Entrar com Facebook
+                   </a>
+                   <a (click)="signIn('google')" class="btn btn-light border btn-block rounded btn-lg btn-google">
+                    <i class="icofont-google-plus text-danger mr-2"></i> Entrar com a Google
+                    </a>
+                   <p class="text-center mt-3 mb-0"><a [routerLink]="['/signup']" class="text-dark">Não tem uma conta? Inscrever-se</a></p>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+</body>

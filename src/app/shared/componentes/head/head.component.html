@@ -1,0 +1,243 @@
+<div class="top-bar">
+  <div class="container">
+    <div class="row">
+      <div class=" uk-background-cover">
+        <img src="assets/icons/truck_icon.png" width="37" height="17" alt="truck-icon">
+        <span class="frete uk-text-uppercase uk-text-bold ">Frete grátis</span>
+        <span class="uk-text-emphasis"> a partir de R$ 250,00</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="border-bottom p-3 d-none mobile-nav ">
+  <div class="title d-flex align-items-center ">
+    <a [routerLink]="['']" class="text-decoration-none text-dark d-flex align-items-center">
+      <img class="osahan-logo mr-2" src="assets/imagens/LOGO PNG.png">
+
+      <h4 class="font-weight-bold text-success m-0"></h4>
+    </a>
+    <p class="ml-auto m-0">
+      <!-- <a routerLink="listing" class="text-decoration-none bg-white p-1 rounded shadow-sm d-flex align-items-center">
+        <i class="text-dark icofont-sale-discount"></i>
+        <span class="badge badge-danger p-1 ml-1 small">50%</span>
+      </a> -->
+    </p>
+    <a class="toggle ml-3"><i class="icofont-navigation-menu"></i></a>
+  </div>
+  <a class="text-decoration-none">
+    <div class="input-group mt-3 rounded shadow-sm overflow-hidden bg-white">
+      <div class="input-group-prepend">
+        <button class="border-0 btn btn-outline-secondary text-success bg-white">
+          <i class="icofont-search"></i>
+        </button>
+      </div>
+      <input [(ngModel)]="search" type="text" class="shadow-none border-0 form-control pl-0" placeholder="Buscar Produto ..." aria-label=""
+        aria-describedby="basic-addon1" />
+    </div>
+    <div *ngIf="search.length >= 3" class="pesquisa" >
+      <app-busca-produtos [pesquisa]="search" ></app-busca-produtos>
+    </div>
+  </a>
+</div>
+<!-- Dark mode -->
+<!-- <div class="theme-switch-wrapper">
+  <label class="theme-switch" for="checkbox">
+    <input type="checkbox" id="checkbox" />
+    <div class="slider round"></div>
+    <i class="icofont-moon"></i>
+  </label>
+  <em>Enable Dark Mode!</em>
+</div> -->
+<!-- End Dark mode -->
+<!-- Nav bar -->
+<div #fixed (scroll)="onWindowScroll($event)" class="bg-white shadow-sm osahan-main-nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white osahan-header py-0 container">
+    <div class="uk-width-1-4">
+      <a class="navbar-brand mr-0" [routerLink]="['']"><img class="img-fluid logo-img" width="140"
+          src="assets/imagens/LOGO PNG.png" /></a>
+    </div>
+    <div class="uk-width-2-3 d-flex align-items-center">
+      <!-- <div class="dropdown mr-3">
+
+        <div class="dropdown-menu osahan-select-loaction p-3" aria-labelledby="navbarDropdown">
+          <span>Encontre uma exalla perto de voçê</span>
+          <form class="form-inline my-2">
+            <div class="input-group p-0 col-lg-12">
+              <input type="text" class="form-control form-control-sm" id="inlineFormInputGroupUsername2"
+                placeholder="Buscar por Loja" />
+              <div class="input-group-prepend">
+                <div class="btn btn-success rounded-right btn-sm">
+                  <i class="icofont-location-arrow"></i> Buscar
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div> -->
+      <!-- search  -->
+
+  <div (click)="buscar($event)">
+    <div  class="input-group mr-sm-5 ">
+      <input  [(ngModel)]="search" type="text" class="form-control" placeholder="Buscar Produto ..." />
+      <div class="input-group-prepend">
+        <div class="btn btn-success rounded-right">
+          <i  class="icofont-search"></i>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="search.length >= 3" class="pesquisa" >
+      <app-busca-produtos [search]="search" (filtrar)="limpar()"></app-busca-produtos>
+    </div>
+  </div>
+
+
+    </div>
+    <div class="uk-width-1-2 d-flex align-items-center">
+      <div class="dropdown mr-3">
+        <a class="text-dark dropdown-toggle d-flex align-items-center osahan-location-drop" href="#" id="navbarDropdown"
+          role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div>
+            <i uk-icon="location"
+              class=" d-flex align-items-center bg-light rounded-pill p-2 icofont-size border shadow-sm mr-2"></i>
+          </div>
+          <div>
+            <p class="text-muted mb-0 small">Buscar Loja</p>
+
+          </div>
+        </a>
+        <div class="dropdown-menu osahan-select-loaction p-3" aria-labelledby="navbarDropdown">
+          <div class="city pt-2">
+            <h6>Nossas Lojas</h6>
+            <p *ngFor="let a of address" class="border-bottom m-0 py-1">
+              <a  [routerLink]="['/faq']" class="text-dark">{{a.nome}}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- my account -->
+      <div class="dropdown mr-3">
+        <a href="#" class="dropdown-toggle text-dark" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <img src="assets/icons/usuarios.png" class="img-fluid rounded-circle header-user mr-2" />
+          {{ this.socialLoginService.getAccount()?.name }}
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right top-profile-drop" aria-labelledby="dropdownMenuButton">
+          <section *ngIf="!this.socialLoginService.isAuthenticated()">
+            <div class="authentication-login">
+              <a [routerLink]="['/signin']" class="my-account">
+                <button class="button-my-account">
+                  Olá! Entrar na Minha Conta
+                </button>
+              </a>
+            </div>
+            <div class="not-register">
+              <h5>Não tem cadastro?</h5>
+              <a class="link" [routerLink]="['/signup']">
+                Criar Conta
+              </a>
+            </div>
+          </section>
+          <section *ngIf="this.socialLoginService.isAuthenticated()">
+            <a class="dropdown-item" [routerLink]="['/my-account']">Minha Conta</a>
+            <a class="dropdown-item" [routerLink]="['/promos']">Campanhas</a>
+            <a class="dropdown-item" [routerLink]="['/my-address']">Meu Endereço</a>
+            <a class="dropdown-item" [routerLink]="['/terms-conditions']">Termos e Condições</a>
+            <a class="dropdown-item" [routerLink]="['/help-support']">Ajuda</a>
+            <a class="dropdown-item" [routerLink]="['/help-ticket']">Sugestões</a>
+            <a class="dropdown-item" [routerLink]="['']" (click)="logOut()">Sair</a>
+          </section>
+
+        </div>
+      </div>
+      <!-- notification -->
+      <div class="dropdown">
+        <a href="#" class="text  dropdown-toggle not-drop" id="dropdownMenuNotification" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <i uk-icon="heart" class="d-flex align-items-center bg-light rounded-pill p-2 icofont-size border shadow-sm">
+            <!-- <p class="mt-n2 mb-0 font-weight-bold text-success">2</p> -->
+          </i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right p-0 osahan-notifications-main"
+          aria-labelledby="dropdownMenuNotification">
+          <!-- notification 1 -->
+          <div class="osahan-notifications bg-white border-bottom p-2">
+            <div class="position-absolute ml-n1 py-2">
+              <i class="icofont-check-circled text-white bg-success rounded-pill p-1"></i>
+            </div>
+            <a [routerLink]="['/status-complete']" class="text-decoration-none text-dark">
+              <div class="notifiction small">
+                <div class="ml-3">
+                  <p class="font-weight-bold mb-1">Olá!Pedido Concluído</p>
+                  <p class="small m-0">
+                    <i class="icofont-ui-calendar"></i> Hoje, 10:14 AM
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- notification 2 -->
+          <div class="osahan-notifications bg-white border-bottom p-2">
+            <a [routerLink]="['/status-onprocess']" class="text-decoration-none text-muted">
+              <div class="notifiction small">
+                <div class="ml-3">
+                  <p class="font-weight-bold mb-1">
+                    Olá! Pedido saiu para Entrega
+                  </p>
+                  <p class="small m-0">
+                    <i class="icofont-ui-calendar"></i> Hoje, 08:30 PM
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- notification 3 -->
+          <div class="osahan-notifications bg-white p-2">
+            <a [routerLink]="['/status-onprocess']" class="text-decoration-none text-muted">
+              <div class="notifiction small">
+                <div class="ml-3">
+                  <p class="font-weight-bold mb-1">
+                    Olá,Pedido em Separação
+                  </p>
+                  <p class="small m-0">
+                    <i class="icofont-ui-calendar"></i> Segunda, 10:30
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- cart -->
+      <div >
+      <a  [routerLink]="['/cart']" class="ml-2 text-dark bg-light rounded-pill p-2 icofont-size border shadow-sm">
+        <i uk-icon="bag" class=""> </i>
+      </a>
+      <span  *ngIf="products.length >= 1" class="uk-badge">{{products.length}}</span>
+     </div>
+    </div>
+
+  </nav>
+</div>
+<!-- Menu bar -->
+<div class="bg-color-head menu-bar">
+  <div class="uk-container-large menu-bar uk-margin-auto">
+    <ul class="list-unstyled form-inline mb-0">
+      <div  class="uk-width-1-1">
+        <app-departamento></app-departamento>
+      </div>
+    </ul>
+  </div>
+</div>
+<!-- bread_cum -->
+<nav aria-label="breadcrumb" class="breadcrumb mb-0 d-none">
+  <div class="container">
+    <ol class="d-flex align-items-center mb-0 p-0">
+      <li class="breadcrumb-item">
+        <a href="#" class="text-success">Home</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page"></li>
+    </ol>
+  </div>
+</nav>

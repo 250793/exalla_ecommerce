@@ -1,0 +1,95 @@
+<body class="fixed-bottom-padding">
+  <!-- bread_cum -->
+  <nav aria-label="breadcrumb" class="breadcrumb mb-0">
+    <div class="container">
+       <ol class="d-flex align-items-center mb-0 p-0">
+          <li class="breadcrumb-item"><a href="#" class="text-success">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Meu Pedido</li>
+       </ol>
+    </div>
+  </nav>
+  <section class="py-4 osahan-main-body">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-3">
+             <ul class="nav nav-tabs custom-tabs border-0 flex-column bg-white rounded overflow-hidden shadow-sm p-2 c-t-order" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                   <a class="nav-link border-0 text-dark py-3 active" [routerLink]="['/my-order']" role="tab">
+                   <i class="icofont-check-alt mr-2 text-success mb-0"></i> Concluído</a>
+                </li>
+                <li class="nav-item border-top" role="presentation">
+                   <a class="nav-link border-0 text-dark py-3" [routerLink]="['/my-order']" role="tab">
+                   <i class="icofont-wall-clock mr-2 text-warning mb-0"></i> Em Separação</a>
+                </li>
+                <li class="nav-item border-top" role="presentation">
+                   <a class="nav-link border-0 text-dark py-3" [routerLink]="['/my-order']" role="tab">
+                   <i class="icofont-close-line mr-2 text-danger mb-0"></i> Cancelado</a>
+                </li>
+             </ul>
+          </div>
+          <div class="col-md-9">
+             <!-- body -->
+             <section class="bg-white osahan-main-body rounded shadow-sm overflow-hidden">
+                <div class="container-0">
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <div class="osahan-status">
+                            <!-- status complete -->
+                            <div class="p-3 status-order bg-white border-bottom d-flex align-items-center">
+                               <p class="m-0"><i class="icofont-ui-calendar"></i> 10 Setembro , 11:30</p>
+                               <a [routerLink]="['/review']" class="text-success ml-auto text-decoration-none">Nos conte sua experiêcia</a>
+                            </div>
+                            <div class="p-3 border-bottom">
+                               <h6 class="font-weight-bold">Status do Pedido</h6>
+                               <div class="tracking-wrap">
+                                  <div class="my-1 step active">
+                                     <span class="icon text-success"><i class="icofont-check"></i></span>
+                                     <span class="text small">Preparando Pedido</span>
+                                  </div>
+                                  <!-- step.// -->
+                                  <div class="my-1 step active">
+                                     <span class="icon text-success"><i class="icofont-check"></i></span>
+                                     <span class="text small"> Pedido Separado</span>
+                                  </div>
+                                  <!-- step.// -->
+                                  <div class="my-1 step">
+                                     <span class="icon text-success"><i class="icofont-check"></i></span>
+                                     <span class="text small"> Saiu para Entrega</span>
+                                  </div>
+                                  <!-- step.// -->
+                                  <div class="my-1 step">
+                                     <span class="icon text-success"><i class="icofont-check"></i></span>
+                                     <span class="text small">Pedido Entregue</span>
+                                  </div>
+                                  <!-- step.// -->
+                               </div>
+                            </div>
+                            <!-- Destination -->
+                            <div class="p-3 border-bottom bg-white">
+                               <h6 class="font-weight-bold">Endereço para Entrega</h6>
+                               <p class="m-0 small">Rua:Minas Gerais 772,Panamericano Fortaleza/CE</p>
+                            </div>
+                            <div class="p-3 border-bottom">
+                               <p class="font-weight-bold small mb-1">Correios</p>
+                               <img src="data:image/png;base64,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" class="img-fluid sc-osahan-logo mr-2"> <span class="small text-success font-weight-bold">                          </span>
+                            </div>
+                            <!-- total price -->
+                            <!-- Destination -->
+                            <!-- <div class="p-3 bg-white">
+                               <div class="d-flex align-items-center mb-2">
+                                  <h6 class="font-weight-bold mb-1">Total Cost</h6>
+                                  <h6 class="font-weight-bold ml-auto mb-1">$8.52</h6>
+                               </div>
+                               <p class="m-0 small text-muted">You can check your order detail here,<br>Thank you for order.</p>
+                            </div> -->
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </section>
+          </div>
+       </div>
+    </div>
+  </section>
+  </body>
+

@@ -1,0 +1,83 @@
+.breadcrumb{
+  padding: 1rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.img-card{
+  max-width: auto;
+  cursor: pointer;
+
+}
+.p-3{
+  color: white;
+}
+.list-card-image img  {
+  height: 120px;
+  width: auto;
+
+}
+.img-fluid{
+  max-width: auto;
+}
+.row{
+  display:flex;
+  justify-content: flex-end;
+}
+.preco-max span{
+  color: dimgrey;
+  font-size: 1rem;
+  line-height: 3;
+  text-decoration: line-through;
+}
+.price{
+  padding-top: 10px;
+  margin-top: -15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cart-items-number{
+  width: 120px;
+  height: 35px;
+}
+.cart-items-number .btn {
+  width: 40px;
+  font-size: 20px;
+}
+.cart-items-number .form-control {
+  font-size: 20px;
+}
+.row{
+  margin-right: 9px;
+}
+.porcentagem{
+  margin-left: 10px;
+  font-size: 22px;
+  margin-top: -9px;
+}
+.grupo{
+  text-decoration:underline ;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.sub-grupo{
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+.subtitulo{
+  display: flex;
+
+}
+.navegacao{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.text-success{
+cursor: pointer;
+}

@@ -1,0 +1,2456 @@
+
+    {
+        "produto": [
+            {
+                "codigo": "0186702",
+                "descricao": "Lixa Para Unhas Bloco Reta Branca First Kiss",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\24 UN",
+                "codigobarra": "731509736786",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: F.KISS",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/731509736786_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/731509736786_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/731509736786_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0186702",
+                        "valor_tabela_preco": "6.41"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7614901",
+                "descricao": "Lixa Para Unhas Gi Com 100 Unidades Ref82 .",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\120 UN",
+                "codigobarra": "7898910761820",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: GI DESCARTAVEIS",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "57",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7898910761820_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7898910761820_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7898910761820_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7614901",
+                        "valor_tabela_preco": "15.22"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7852701",
+                "descricao": "Lixa Para Unhas Ricca Colors Com 6 Unidades",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\6 UN",
+                "codigobarra": "7897517903633",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: RICCA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517903633_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517903633_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517903633_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7852701",
+                        "valor_tabela_preco": "3.1"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0040901",
+                "descricao": "Lixa Para Unhas Ricca Com 6 Unidades",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897517903626",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: RICCA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517903626_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517903626_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517903626_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0040901",
+                        "valor_tabela_preco": "2.59"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7624001",
+                "descricao": "Lixa Pe Gi Eva 75",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\120 UN",
+                "codigobarra": "7898910761752",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: GI DESCARTAVEIS",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7898910761752_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7898910761752_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7898910761752_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7624001",
+                        "valor_tabela_preco": "5.76"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7554801",
+                "descricao": "Lixa Pe Santa Clara 116",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201163",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201163_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201163_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201163_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7554801",
+                        "valor_tabela_preco": "8.66"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7555901",
+                "descricao": "Lixa Pe Santa Clara E.V.A 399",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169203990",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "23",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169203990_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169203990_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169203990_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7555901",
+                        "valor_tabela_preco": "9.55"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7559001",
+                "descricao": "Lixa Pe Santa Clara Madeira Luxo 238",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169202382",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169202382_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169202382_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169202382_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7559001",
+                        "valor_tabela_preco": "6.31"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0371601",
+                "descricao": "Lixa Pe Santa Clara Madeira Ralix 237",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169202375",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "12",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169202375_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169202375_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169202375_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0371601",
+                        "valor_tabela_preco": "5.89"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0405401",
+                "descricao": "Lixa Pe Santa Clara Refil Fina C/12 Unid 2130",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\24 UN",
+                "codigobarra": "7897169221307",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169221307_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169221307_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169221307_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0405401",
+                        "valor_tabela_preco": "6.55"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7474401",
+                "descricao": "Lixa Polidor De Unhas Marco Boni Ref 6031",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\48 UN",
+                "codigobarra": "7896025502444",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: M.BONI",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896025502444_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896025502444_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896025502444_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7474401",
+                        "valor_tabela_preco": "7.45"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "9285001",
+                "descricao": "Lixa Polidora Para Unhas 4 Faces Marco Boni Ref 6040g",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7896025511965",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: M.BONI",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896025511965_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896025511965_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896025511965_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "9285001",
+                        "valor_tabela_preco": "5.13"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "8665501",
+                "descricao": "Lixa Unha Belliz Profissional Suave 634",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\6 UN",
+                "codigobarra": "7897517906344",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: BELLIZ",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517906344_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517906344_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517906344_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "8665501",
+                        "valor_tabela_preco": "7.35"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0025701",
+                "descricao": "Lixa Unha Santa Clara Big C/72 Unid Canario 389",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\1 UN",
+                "codigobarra": "7897169203891",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "6",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169203891_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169203891_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169203891_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0025701",
+                        "valor_tabela_preco": "0.3"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0025601",
+                "descricao": "Lixa Unha Santa Clara Big C/72 Unid Preta 388",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\72 UN",
+                "codigobarra": "7897169203884",
+                "desconto_maximo": "1.96",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "6",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169203884_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169203884_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169203884_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0025601",
+                        "valor_tabela_preco": "0.51"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0371501",
+                "descricao": "Lixa Unha Santa Clara C/12 Unid Canario 243",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\24 UN",
+                "codigobarra": "7897169202436",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "7",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169202436_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169202436_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169202436_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0371501",
+                        "valor_tabela_preco": "4.51"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7382401",
+                "descricao": "Lixa Unha Santa Clara C/144 Unid 98",
+                "unidade": "PT",
+                "descricaoUni": "CX C\\1 PT",
+                "codigobarra": "7897169200982",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "6",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169200982_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169200982_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169200982_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7382401",
+                        "valor_tabela_preco": "30.75"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0327301",
+                "descricao": "Lixa Unha Santa Clara C/6 Unid Canario 334",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169203341",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "10",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169203341_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169203341_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169203341_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0327301",
+                        "valor_tabela_preco": "2.67"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7535001",
+                "descricao": "Lixa Unha Santa Clara Cubo Eva 400",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169204003",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169204003_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169204003_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169204003_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7535001",
+                        "valor_tabela_preco": "4.49"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7854501",
+                "descricao": "Lixa Unha Santa Clara Mini C/144 Unid 1060",
+                "unidade": "PC",
+                "descricaoUni": "CX C\\120 PC",
+                "codigobarra": "7897169210608",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "32",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169210608_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169210608_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169210608_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7854501",
+                        "valor_tabela_preco": "18.05"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7535201",
+                "descricao": "Lixa Unha Santa Clara Polidor 127",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201279",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "4",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201279_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201279_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201279_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7535201",
+                        "valor_tabela_preco": "12.59"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7390901",
+                "descricao": "Lixa Unha Santa Clara Polidor 129",
+                "unidade": "UN",
+                "descricaoUni": "UN C\\1 UN",
+                "codigobarra": "7897169201293",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "8",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201293_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201293_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201293_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7390901",
+                        "valor_tabela_preco": "16.09"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7671601",
+                "descricao": "Lixa Unha Santa Clara Preta 120",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\60 UN",
+                "codigobarra": "7897169201200",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "7",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201200_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201200_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201200_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7671601",
+                        "valor_tabela_preco": "8.79"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7857801",
+                "descricao": "Mini Lixa Para Unhas Gi Com 70 Unidades \r\n",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\180 UN",
+                "codigobarra": "7898910761653",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: GI DESCARTAVEIS",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "77",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7898910761653_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7898910761653_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7898910761653_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7857801",
+                        "valor_tabela_preco": "7.79"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "8489201",
+                "descricao": "Palito De Aço Inox Ricca R744",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\6 UN",
+                "codigobarra": "7897517907440",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: RICCA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517907440_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517907440_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517907440_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "8489201",
+                        "valor_tabela_preco": "10"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7531601",
+                "descricao": "Palito Para Cutícula Santa Clara 139",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201392",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201392_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201392_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201392_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7531601",
+                        "valor_tabela_preco": "9.09"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7852801",
+                "descricao": "Palito Para Cutículas Ricca Com 4 Unidades",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\6 UN",
+                "codigobarra": "7897517903749",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: RICCA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517903749_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517903749_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517903749_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7852801",
+                        "valor_tabela_preco": "2.55"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "8778201",
+                "descricao": "Palito Para Cutículas Ricca Com 6 Unidades",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897517903701",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: RICCA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517903701_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517903701_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517903701_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "8778201",
+                        "valor_tabela_preco": "1.99"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7532001",
+                "descricao": "Palito Para Unhas Com 25 Unidades Ref.249 Santa Clara",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169202498",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169202498_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169202498_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169202498_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7532001",
+                        "valor_tabela_preco": "13.82"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "8846401",
+                "descricao": "Palito Unha Merheje Inox",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7896075707226",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: MERHEJE",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "17",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896075707226_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896075707226_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896075707226_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "8846401",
+                        "valor_tabela_preco": "14.51"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7575501",
+                "descricao": "Palito Unha Santa Clara C/100 Unid 105",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201057",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "15",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201057_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201057_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201057_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7575501",
+                        "valor_tabela_preco": "10.05"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7532901",
+                "descricao": "Palito Unha Santa Clara C/3 Unid 173",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201736",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "28",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201736_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201736_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201736_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7532901",
+                        "valor_tabela_preco": "0.9"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7532101",
+                "descricao": "Palito Unha Santa Clara C/50 Unid 103",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201033",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "9",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201033_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201033_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201033_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7532101",
+                        "valor_tabela_preco": "33.39"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7558701",
+                "descricao": "Palito Unha Santa Clara Ponta Aco C/3 Unid 58",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169205833",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "27",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169205833_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169205833_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169205833_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7558701",
+                        "valor_tabela_preco": "12.7"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0211401",
+                "descricao": "Pedra Hume Farmax Pó 20g",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7896902205758",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: FARMAX",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "12",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896902205758_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896902205758_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896902205758_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0211401",
+                        "valor_tabela_preco": "4.16"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0211501",
+                "descricao": "Pedra Hume Farmax Spray 30ml",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7896902209749",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: FARMAX",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "36",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896902209749_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896902209749_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896902209749_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0211501",
+                        "valor_tabela_preco": "8.3"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7483701",
+                "descricao": "Pedra Hume Spray Ideal 30ml",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7896679221074",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: IDEAL",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896679221074_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896679221074_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896679221074_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7483701",
+                        "valor_tabela_preco": "14.96"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7668301",
+                "descricao": "Pedra Pomes Gi 78",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\204 UN",
+                "codigobarra": "7898910761783",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: GI DESCARTAVEIS",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7898910761783_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7898910761783_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7898910761783_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7668301",
+                        "valor_tabela_preco": "1.45"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7559601",
+                "descricao": "Pedra Pomes Santa Clara 199",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169201996",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201996_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201996_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201996_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7559601",
+                        "valor_tabela_preco": "1.91"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7534401",
+                "descricao": "Po Hemostatico Santa Clara Lapsan 313",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\120 UN",
+                "codigobarra": "7898288330024",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "13",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7898288330024_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7898288330024_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7898288330024_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7534401",
+                        "valor_tabela_preco": "16.29"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "9383101",
+                "descricao": "Porta Acetona Pequeno Marco Boni  Ref 1522",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7896025515222",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: M.BONI",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896025515222_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896025515222_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896025515222_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "9383101",
+                        "valor_tabela_preco": "18.15"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7405301",
+                "descricao": "Protetor Bacia Santa Clara Manicure C/12 Unid 189",
+                "unidade": "PC",
+                "descricaoUni": "PC C\\1 PC",
+                "codigobarra": "7897169201897",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "10",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201897_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201897_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201897_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7405301",
+                        "valor_tabela_preco": "2.49"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "8991601",
+                "descricao": "Protetor De Bacia Exalla Manicure Com 50 Unidades 3",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\20 UN",
+                "codigobarra": "7898610072165",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: EXALLA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "3",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7898610072165_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7898610072165_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7898610072165_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "8991601",
+                        "valor_tabela_preco": "5.59"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7381801",
+                "descricao": "Protetor Descartável Para Bacia (Pedicuro) Santa Clara 164 .",
+                "unidade": "PC",
+                "descricaoUni": "CX C\\1 PC",
+                "codigobarra": "7897169201644",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "24",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201644_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201644_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201644_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7381801",
+                        "valor_tabela_preco": "25.95"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7381701",
+                "descricao": "Protetor Descartável Para Bacia Manicure 165 Santa Clara",
+                "unidade": "PC",
+                "descricaoUni": "CX C\\24 PC",
+                "codigobarra": "7897169201651",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "10",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169201651_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169201651_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169201651_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7381701",
+                        "valor_tabela_preco": "7.05"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7470302",
+                "descricao": "Refil Lixa Pedicuro Taiff Com 10 Unidades",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\24 UN",
+                "codigobarra": "7896116101501",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: TAIFF",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "19",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7896116101501_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7896116101501_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7896116101501_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7470302",
+                        "valor_tabela_preco": "24.5"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "8795401",
+                "descricao": "Ricca Frasco Spray Color R3310",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\6 UN",
+                "codigobarra": "7897517933104",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: RICCA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897517933104_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897517933104_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897517933104_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "8795401",
+                        "valor_tabela_preco": "6.32"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0371401",
+                "descricao": "S.Clara Ref Lixa Grossa Pes 22",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\48 UN",
+                "codigobarra": "7897169222892",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "11",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169222892_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169222892_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169222892_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0371401",
+                        "valor_tabela_preco": "26.51"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "7535601",
+                "descricao": "Separador De Dedos Eva Santa Clara R:217",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\12 UN",
+                "codigobarra": "7897169202177",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "0",
+                "avisame": true,
+                "previsao_estoque": "Indisponível",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169202177_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169202177_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169202177_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "7535601",
+                        "valor_tabela_preco": "1.06"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            },
+            {
+                "codigo": "0354201",
+                "descricao": "Separador Dedos Santa Clara Coracao 1966",
+                "unidade": "UN",
+                "descricaoUni": "CX C\\36 UN",
+                "codigobarra": "7897169219663",
+                "desconto_maximo": "0",
+                "ativador_campanha": "N",
+                "quantLimiteProd": 9999999,
+                "marca": "Marca: S.CLARA",
+                "favorito": false,
+                "encarte": false,
+                "estoque": "4",
+                "avisame": true,
+                "previsao_estoque": "Possui Estoque",
+                "multiplo_venda": "1",
+                "quantidade_ocorrencia_produto": "0",
+                "galeria_produto": "http://midias.guarany.com.br/jsleiman/private/fotos/small/7897169219663_1.png",
+                "galeria_produto_medium": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/medium/7897169219663_1.png"
+                ],
+                "galeria_produto_large": [
+                    "http://midias.guarany.com.br/jsleiman/private/fotos/large/7897169219663_1.png"
+                ],
+                "grupo": {
+                    "codigo": "01    ",
+                    "descricao": "CUTELARIA",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/01_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "subgrupo": {
+                    "codigo": "0404",
+                    "descricao": "CUT - ACESSORIOS",
+                    "imagem_grupo": "http://midias.guarany.com.br/jsleiman/private/fotos/small/0101_1.png",
+                    "imagem_grupo_icone_svg": "http://midias.guarany.com.br/jsleiman/private/fotos/icones_svg/01_1.svg",
+                    "imagem_grupo_icone_png": "http://midias.guarany.com.br/jsleiman/private/fotos/icone_png/01_1.png"
+                },
+                "tabeladepreco": [
+                    {
+                        "codigo_tabela_preco": "001",
+                        "produto_id": "0354201",
+                        "valor_tabela_preco": "2.1"
+                    }
+                ],
+                "agrupamento": "",
+                "preco_escalonado": [],
+                "sugestao": []
+            }
+        ]
+    }
+

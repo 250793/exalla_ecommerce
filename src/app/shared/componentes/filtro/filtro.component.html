@@ -1,0 +1,61 @@
+<nav class="" style="padding-top: 12px;" uk-navbar>
+  <div class="uk-navbar-left">
+    <ul class="uk-navbar-nav ">
+      <form class="filtro uk-flex uk-align-center" [formGroup]="formFiltro">
+        <li class="lista">
+          <a style="color: #6c757d;"><i class='bx bx-filter-alt bx-flip-horizontal'></i>Filtrar Por <span uk-navbar-parent-icon></span></a>
+          <div class="uk-navbar-dropdown ">
+            <ul class="uk-nav uk-navbar-dropdown-nav" uk-nav>
+              <li class="uk-parent">
+                <a href="#">Grupo</a>
+                <ul class="uk-nav-sub">
+                  <div>
+                    <li *ngFor="let d of departments">
+                      <label><input (change)="changeGrupo($event,d)" formArrayName="cod_grupo"[id]="d.id" [value]="d.id" [checked]="d.checked" class="uk-checkbox" type="checkbox"><a
+                          class="descricao">{{d.description}}</a></label>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li class="uk-parent">
+                <a href="#">Marcas</a>
+                <ul class="uk-nav-sub">
+                  <div>
+                    <li *ngFor="let b of brands">
+                      <label><input (change)="changeMarca($event,b)" formArrayName="cod_marca" [id]="b.cod_marca" [value]="b.cod_marca" [checked]="b.checked" class="uk-checkbox" type="checkbox"><a class="descricao"
+                          >{{b.descricao}}</a></label>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li>
+                <div class="desconto uk-flex ">
+                  <span class="descontos">Descontos</span>
+                  <label class="uk-switch" for="default-1">
+                    <input formControlName="desconto" type="checkbox" id="default-1" >
+                    <div class="uk-switch-slider"></div>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <div class="botoes">
+              <button (click)="onAplicar()" class="aplicar">Aplicar</button>
+              <button (click)="onLimpar()" class="aplicar">Limpar</button>
+            </div>
+          </div>
+        </li>
+        <li class="ordenar">
+          <a style="color: #6c757d;"><span uk-icon="list"></span>Ordenar Por <span uk-navbar-parent-icon></span></a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li *ngFor="let s of filters">
+                <label><input (change)="changeOrdenar()" formControlName="sort" [id]="s.value" [value]="s.value" class="uk-radio" type="radio"><span class="descricao"
+                  >{{s.name}}</span></label>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </form>
+    </ul>
+  </div>
+</nav>

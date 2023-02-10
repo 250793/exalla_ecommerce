@@ -1,0 +1,80 @@
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="">Detalhes do Endereço</h5>
+    </div>
+    <div class="modal-body">
+      <form [formGroup]="cepForm">
+        <div class=" form-row" >
+          <div class="campo-do-cep">
+            <label for="cep">CEP:</label><br>
+            <input  class="pesquisa-cep" type="text"  id="cep" formControlName="cep" (blur)="consultaCep()">
+          </div>
+          <div class="campo-rua">
+            <label for="logradouro">RUA</label><br>
+            <input type="text" class="pesquisa-rua" id="logradouro" formControlName="logradouro" placeholder="...">
+          </div>
+          <div class="campo-bairro">
+            <label for="bairro">BAIRRO</label><br>
+            <input type="text" class="pesquisa-bairro" id="bairro" formControlName="bairro" placeholder="...">
+          </div>
+          <div class="campo-cidade">
+            <label for="cidade">CIDADE</label><br>
+            <input type="text" class="Form-control" id="cidade" formControlName="cidade" placeholder="...">
+          </div>
+         <div class="campo-uf">
+          <label for="uf">UF</label><br>
+          <input type="text" class="pesquisa-uf" id="uf" formControlName="uf"  placeholder="...">
+         </div>
+         <div class="campo-numero">
+          <label for="numero">NÚMERO</label><br>
+          <input type="text" class="pesquisa-numero" id="numero" formControlName="numero">
+         </div>
+         <div class="campo-complemento">
+          <label for="complemento">COMPLEMENTO</label><br>
+          <input type="text" class="pesquisa-complemento" id="complemento" formControlName="complemento">
+         </div>
+          <div class="col-md-12 form-group">
+            <label class="form-label">Tipo</label>
+            <div class="container">
+              <div class="button-wrap">
+                <label class="button-label" for="casa">
+                <input class="radio-label" type="radio"  formControlName="tipo" id="casa" value="casa" checked="checked" />
+                  <h1><span uk-icon="home"></span>Casa</h1>
+                </label>
+                <label class="button-label" for="trabalho">
+                  <input class="radio-label" type="radio" formControlName="tipo" value="trabalho" id="trabalho" />
+                  <h1><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path
+                        d="M19 11h.8c.59 0 1.14.27 1.56.73.41.47.64 1.11.64 1.77 0 .66-.23 1.3-.64 1.77-.42.46-.97.73-1.56.73H19M4.6 9h12.8c.42 0 .83.11 1.13.32.3.2.47.48.47.77v5.46c0 1.44-.84 2.83-2.34 3.85-1.5 1.03-3.54 1.6-5.66 1.6s-4.16-.57-5.66-1.6C3.84 18.38 3 16.99 3 15.55v-5.46c0-.29.17-.57.47-.77.3-.21.71-.32 1.13-.32z"
+                        class="stroke" fill="none" stroke="#101010" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="1.5">
+
+                      </path>
+                      <path class="shadow-bg fill"
+                        d="M15 12c.55 0 1 .45 1 1v1.69c0 1.07-.44 2.12-1.41 2.57-.83.38-2.03.74-3.59.74s-2.76-.36-3.59-.74C6.44 16.81 6 15.76 6 14.69V13c0-.55.45-1 1-1h8z"
+                        opacity="0.2" fill="#101010"></path>
+                      <path class="stroke" d="M10.5 2c-1.73 2.8 1.73 4.2 0 7m4-8c-1.73 2 1.73 3 0 5M3 23h16" fill="none"
+                        stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                    </svg>Trabalho</h1>
+                </label>
+                <label class="button-label" for="outros">
+                  <input class="radio-label" type="radio" formControlName="tipo" value="outros" id="outros" />
+                  <h1><span uk-icon="location"></span>Outros</h1>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer p-0 border-0">
+      <div class="col-6 m-0 p-0">
+        <button type="button" class="btn border-top btn-lg btn-block uk-modal-close" type="button">Fechar</button>
+      </div>
+      <div class="col-6 m-0 p-0">
+        <button type="button" (click)="enviarForm()"  class="btn btn-success btn-lg btn-block uk-modal-close">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>

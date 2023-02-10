@@ -1,0 +1,43 @@
+<div class="container uk-child-width-expand@s" uk-grid>
+  <div *ngFor="let p of products" class=" uk-padding-small  uk-inline-clip uk-transition-toggle" tabindex="0">
+    <div class="uk-height-1-1 uk-flex uk-flex-center uk-flex-column uk-flex-between uk-text-center">
+      <div class="">
+        <div *ngIf="p.desconto"  class="desconto position-absolute">
+          <p>
+            <span>{{p.desconto}}%</span>
+            OFF
+          </p>
+        </div>
+        <!-- <div class="favorito" (click)="handleFavorite(p)">
+          <box-icon *ngIf="p.account_favorite_products.length > 0" name='heart' type="solid" color="red"></box-icon>
+          <box-icon *ngIf="p.account_favorite_products.length === 0" name='heart'></box-icon>
+        </div> -->
+        <div class="toda-caixa">
+          <img (click)="redirect(p.cod_produto)" class="imagem" src="{{ p.imagens[0] }}" alt="" onerror="this.src='https://www.bstest.com.br/wp-content/uploads/2019/09/produto-sem-imagem-1000x1000.jpg'" />
+        </div>
+      </div>
+      <!-- <a class="informacao-produto"  class="text-dark">
+        <h4 (click)="redirect(p.cod_produto)" class="nome-produto">{{p.descricao_marca}}</h4>
+      </a> -->
+      <a style="min-height: 70px;" >
+        <h6 (click)="redirect(p.cod_produto)">{{p.descricao}}</h6>
+      </a>
+      <div class="preço ">
+        <div *ngIf="p.desconto" >
+          <span (click)="redirect(p.cod_produto)" class="preço-max uk-text-small">De: {{parseValue(p.preco_tabela)}}</span>
+        </div>
+        <a>
+          <div>
+            <h6 (click)="redirect(p.cod_produto)" class="price m-0 text-success uk-text-bolder">Por: {{parseValue(p.preco_venda)}}</h6>
+          </div>
+        </a>
+        <div (click)="redirect(p.cod_produto)" class="descricao">
+          <p class="">{{p.detalhe_produto}}</p>
+        </div>
+        <div  (click)="addCart(p.cod_produto, p.multiplo_venda,$event)">
+        <p class="comprar uk-h4 uk-margin-remove overlay-comprar uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-text-center ">ADICIONE NO CARRINHO</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

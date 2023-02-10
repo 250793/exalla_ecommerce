@@ -1,0 +1,73 @@
+<!-- bread_cum -->
+<ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" type="ball-scale-multiple">
+  <p style="font-size: 20px; color: white">Loading...</p>
+</ngx-spinner>
+<nav aria-label="breadcrumb" class="breadcrumb mb-0 ">
+  <div class="container">
+    <ol class="d-flex align-items-center mb-0 p-0">
+      <li class="breadcrumb-item">
+        <a (click)="voltar()" class="text-success" uk-icon="chevron-left"></a>
+        <a (click)="voltar()" class="text-success" style="padding-top: 7px;">Voltar</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Lista de Produtos</li>
+    </ol>
+
+  <div class="filtro">
+    <app-filtro (elementsFiltrado)="order($event)"></app-filtro>
+</div>
+  </div>
+</nav>
+
+<!-- body -->
+
+<div *ngIf="products.length > 0" class="  uk-margin-auto uk-padding uk-child-width-1-5@l" uk-grid infiniteScroll [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="50" (scrolled)="onScroll()">
+  <div *ngFor="let p of products" class="uk-padding-small   uk-inline-clip uk-transition-toggle" tabindex="0">
+    <div class=" uk-text-center uk-height-1-1 uk-flex uk-flex-center uk-flex-column uk-flex-between">
+      <div *ngIf="p.desconto" class="desconto position-absolute">
+        <p>
+          <span>{{p.desconto}}%</span>
+          OFF
+        </p>
+
+      </div>
+      <div class="favorito" (click)="handleFavorite(p)">
+        <!-- <box-icon *ngIf="p.favorite === true" name='heart' type="solid" color="red"></box-icon>
+              <box-icon *ngIf="p.favorite === false" name='heart'></box-icon> -->
+      </div>
+      <div class="toda-caixa">
+        <a href="" [routerLink]="['/product-details',p.cod_produto]">
+          <img class="imagem order-0" src="{{ p.imagens[0] }}" alt=""
+            onerror="this.src='https://www.bstest.com.br/wp-content/uploads/2019/09/produto-sem-imagem-1000x1000.jpg'" />
+        </a>
+      </div>
+      <!-- <a class="informação-produto" [routerLink]="['/product-details',p.cod_produto]" class="text-dark">
+        <h4 class="nome-produto">{{p.descricao_marca}}</h4>
+      </a> -->
+      <a style="min-height: 70px;" [routerLink]="['/product-details',p.cod_produto]" class="informação-produto">
+        <h6>{{p.descricao}}</h6>
+      </a>
+      <div class="preço ">
+        <div *ngIf="p.desconto">
+          <span class="preco-max uk-text-small">De: {{parseValue(p.preco_tabela)}}</span>
+        </div>
+        <a [routerLink]="['/product-details',p.cod_produto]">
+          <div>
+            <h6 class="price m-0 text-success uk-text-bolder">Por: {{parseValue(p.preco_venda)}}</h6>
+          </div>
+        </a>
+        <div class="descricao">
+          <p class="">{{p.detalhe_produto}}</p>
+        </div>
+        <div class="caixa-comprar">
+          <p (click)="addCart(p.cod_produto, p.multiplo_venda,$event)"
+            class="comprar uk-h4 uk-margin-remove overlay-comprar uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-text-center">
+            ADICIONAR NO CARRINHO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="erro" *ngIf="products.length <= 0 && !fetching">
+  <h1>Não existe nenhum produto  correspondente </h1>
+</div>

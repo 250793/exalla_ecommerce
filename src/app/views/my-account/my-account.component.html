@@ -1,0 +1,68 @@
+<div  class="fixed-bottom-padding">
+
+  <!-- bread_cum -->
+  <ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" type="ball-scale-multiple">
+    <p style="font-size: 20px; color: white">Loading...</p>
+  </ngx-spinner>
+  <nav aria-label="breadcrumb" class="breadcrumb mb-0 ">
+    <div class="container">
+      <ol class="d-flex align-items-center mb-0 p-0">
+        <li class="breadcrumb-item">
+          <a (click)="voltar()" class="text-success" uk-icon="chevron-left"></a>
+          <a (click)="voltar()" class="text-success" style="padding-top: 7px;">Voltar</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Minha Conta</li>
+      </ol>
+    </div>
+  </nav>
+<!-- body -->
+<section class="py-4 osahan-main-body">
+   <div class="container">
+      <div class="row">
+        <app-tela-de-usuario></app-tela-de-usuario>
+         <div class="col-lg-8 p-4 bg-white rounded shadow-sm">
+            <h4 class="mb-4 profile-title">Minha Conta</h4>
+            <div id="edit_profile">
+               <div class="p-0">
+                    <form class="formulario" [formGroup]="formConta" (submit)="conta()">
+
+                     <div class="form-group">
+                        <label for="exampleInputName1">Nome Completo</label>
+                        <input formControlName="name" type="text" class="form-control"  value="">
+                     </div>
+                     <div class="form-group">
+                      <label for="telefone">Número de Celular </label>
+                      <input formControlName="phone" type="text" class="form-control"  prefix="+55" mask="(00) 00000-0000">
+                   </div>
+                   <div class="form-group">
+                    <label for="number">CPF/CNPJ</label>
+                    <input formControlName="cpf_cnpj" placeholder="CPF/CNPJ" type="text" class="form-control" id="number" mask="000.000.000-00||00.000.000/0000-00">
+
+                 </div>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input formControlName="email" type="email" class="form-control"  value="">
+                     </div>
+                     <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-block btn-lg">Salvar Alterações</button>
+                     </div>
+                  </form>
+               </div>
+               <div class="additional mt-3">
+                  <div class="change_password mb-1">
+                     <a [routerLink]="['/change-password']" class="p-3 btn-light border btn d-flex align-items-center">Mudar Senha
+                     <i class="icofont-rounded-right ml-auto"></i></a>
+                  </div>
+                  <div class="deactivate_account">
+                     <a [routerLink]="['/deactivate-account']" class="p-3 btn-light border btn d-flex align-items-center">Desativar Conta
+                     <i class="icofont-rounded-right ml-auto"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+</div>
+

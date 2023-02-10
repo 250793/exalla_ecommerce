@@ -1,0 +1,62 @@
+.py-4 {
+  padding-top: 0.5rem !important;
+}
+
+.ofertas {
+  height: 16px;
+  font-size: 50px;
+  padding-top: 25px;
+  position: relative;
+}
+
+.ofertas::after {
+  content: "";
+  background-color: rgba(226, 32, 176, 0.38);
+  position: absolute;
+  bottom: -53px;
+  width: 40%;
+  z-index: 0;
+  right: 50%;
+  height: 23px;
+  transform: translateX(50%);
+}
+
+.row {
+  padding-top: 0rem;
+}
+.click{
+  padding-top: 19px;
+}
+
+@media(max-width: 650px) {
+  .ofertas {
+    font-size: 28px;
+    margin-top: -15px;
+
+
+  }
+
+  .ofertas::after {
+    bottom: -40px;
+    width: 60%;
+  }
+}
+
+.ver-mais {
+  text-decoration: underline;
+  color: #666666;
+  padding-left: 60rem;
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+@media(max-width: 390px) {
+  .ver-mais, .title{
+    font-size: 0.6rem;
+    padding-left: 19rem;
+    padding-top: 20px;
+    font-weight: 500;
+
+  }
+
+}

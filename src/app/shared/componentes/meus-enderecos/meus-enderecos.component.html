@@ -1,0 +1,92 @@
+
+
+    <div *ngFor="let a of address" class="custom-control custom-radio px-0 mb-3 position-relative border-custom-radio">
+      <input type="radio" class="custom-control-input">
+      <label (click)="mudarPadrao(a.cod_endereco)" class="custom-control-label w-100">
+        <div>
+          <div class="p-3 bg-white rounded shadow-sm w-100">
+            <div class="d-flex align-items-center mb-2">
+              <p class="mb-0 h6 uk-text-capitalize">{{a.tipo}}</p>
+              <p *ngIf="a.default" class="mb-0 badge badge-success ml-auto">Padrão</p>
+            </div>
+            <div class=" uk-flex">
+              <p class="small text-muted m-0">Cep:</p>
+              <p style="padding-left:0.5rem;" class="small text-muted m-0">{{a.cep}}</p>
+            </div>
+            <div class=" uk-flex">
+              <p class="small text-muted m-0">Bairro:</p>
+              <p style="padding-left:0.5rem;" class="small text-muted m-0">{{a.bairro}}</p>
+            </div>
+            <div class=" uk-flex">
+              <p class="small text-muted m-0">Cidade:</p>
+              <p style="padding-left:0.5rem;" class="small text-muted m-0">{{a.cidade}}</p>
+            </div>
+            <div class="uk-flex">
+              <p class="small text-muted m-0">Rua:</p>
+              <p style="padding-left:0.5rem;" class="small text-muted m-0">{{a.rua}}</p>
+            </div>
+            <div class="uk-flex">
+              <p class="small text-muted m-0">Complemento:</p>
+              <p style="padding-left:0.5rem;" class="small text-muted m-0">{{a.complemento}}</p>
+            </div>
+            <div class="uk-flex">
+              <p class="small text-muted m-0">Número:</p>
+              <p style="padding-left:0.5rem;" class="small text-muted m-0">{{a.numero}}</p>
+            </div>
+          </div>
+        </div>
+      </label>
+      <p class="pt-2 m-0 text-right">
+        <span class="small"><a href="#tagEdit-{{a.cod_endereco}}" uk-toggle class="text-decoration-none text-success"><i
+              class="icofont-edit"></i> Editar</a>
+        </span>
+        <span class="small ml-3"><a href="#tagDelete-{{ a.cod_endereco }}" uk-toggle
+            class="text-decoration-none text-danger"><i class="icofont-trash"></i> Excluir</a>
+        </span>
+      </p>
+    </div>
+
+    <a href="#tagCreate" uk-toggle class="text-decoration-none text-success ml-auto"> <i
+        class="icofont-plus-circle mr-1"></i>Adicionar
+      Novo Endereço</a>
+
+<!-- Modal -->
+<div id="tagCreate" uk-modal>
+  <app-cadastro-de-endereco (salveForm)="salveForm($event)"></app-cadastro-de-endereco>
+</div>
+
+<div *ngFor="let a of address">
+  <div id="tagEdit-{{a.cod_endereco}}" uk-modal>
+    <app-cadastro-de-endereco [changeEdit]="a" (editForm)="editForm($event)"></app-cadastro-de-endereco>
+  </div>
+</div>
+<div *ngFor="let a of address">
+  <div id="tagDelete-{{ a.cod_endereco }}" uk-modal>
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="DeleteModalLabel">Deletar</h5>
+          <button class="uk-modal-close-default" type="button" uk-close>
+          </button>
+        </div>
+        <div class="modal-body text-center d-flex align-items-center">
+          <div class="w-100 px-3">
+            <i class="icofont-trash text-danger display-1 mb-5"></i>
+            <h6>Tem certeza de que desejar excluir?</h6>
+            <p class="small text-muted m-0">{{a.rua}} {{a.numero}}</p>
+            <p class="small text-muted m-0">{{a.bairro}} {{a.cidade}}</p>
+          </div>
+        </div>
+        <div class="modal-footer p-0 border-0">
+          <div class="col-6 m-0 p-0">
+            <button type="button" class="btn border-top btn-lg btn-block uk-modal-close">Fechar</button>
+          </div>
+          <div class="col-6 m-0 p-0">
+            <button (click)="deletar(a.cod_endereco)" type="button"
+              class="btn btn-danger btn-lg btn-block uk-modal-close">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

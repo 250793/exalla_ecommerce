@@ -1,0 +1,18 @@
+.uk-slideshow-items {
+  img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+}
+.navegacao{
+  margin-bottom: -10px;
+}
+@media (max-width:390px){
+.navegacao{
+  margin-bottom: -12px;
+}
+.vantagens{
+  padding-top: 6px;
+}
+}

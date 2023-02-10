@@ -1,0 +1,41 @@
+.uk-navbar-container:not(.uk-navbar-transparent){
+  background-color: black;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle{
+  min-height: 35px;
+  font-size: 0.825rem;
+}
+.uk-navbar-nav>li.uk-active>a {
+  color: white;
+}
+.uk-navbar-nav>li>a{
+  color: white;
+}
+.uk-navbar-nav {
+ gap:57px;
+}
+.uk-navbar-nav {
+padding-left: 8px;
+}
+.uk-navbar-dropdown{
+  width: 250px;
+}
+.uk-flex{
+  justify-content: flex-start ;
+  align-items: center;
+
+  padding-bottom: 10px
+  }
+  .descricao-rede-social{
+    margin-left: 5px;
+
+  }
+  .descricao-rede-social {
+    color:#343a40!important;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  .icofont-facebook, .icofont-twitter, .icofont-instagram{
+    color:#343a40!important;
+    opacity: 0.8;
+  }

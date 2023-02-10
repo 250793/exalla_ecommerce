@@ -1,0 +1,29 @@
+<!-- bread_cum -->
+<ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" type="ball-scale-multiple">
+  <p style="font-size: 20px; color: white">Loading...</p>
+</ngx-spinner>
+<nav aria-label="breadcrumb" class="breadcrumb mb-0 ">
+  <div class="container">
+    <ol class="d-flex align-items-center mb-0 p-0">
+      <li class="breadcrumb-item">
+        <a (click)="voltar()" class="text-success" uk-icon="chevron-left"></a>
+        <a (click)="voltar()" class="text-success" style="padding-top: 7px;">Voltar</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Minha Conta</li>
+    </ol>
+  </div>
+</nav>
+<!-- body -->
+<section class="py-4 osahan-main-body">
+  <div class="container">
+    <div class="row">
+      <app-tela-de-usuario></app-tela-de-usuario>
+      <div class="col-lg-8 p-4 bg-white rounded shadow-sm">
+        <div class="osahan-my_address">
+          <h4 class="mb-4 profile-title">Meus Endereços</h4>
+          <app-meus-enderecos></app-meus-enderecos>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+.container{
+display: flex;
+justify-content: space-between;
+
+}
+.card{
+  width: 25.5vh;
+  margin: 1.2rem;
+
+}
+.card-principal img{
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.titulo {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.uk-slider-container{
+  cursor: pointer;
+}

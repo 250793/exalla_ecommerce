@@ -1,0 +1,29 @@
+<body class="fixed-bottom-padding bg-success">
+
+  <!-- bread_cum -->
+  <nav aria-label="breadcrumb" class="breadcrumb mb-0">
+    <div class="container">
+       <ol class="d-flex align-items-center mb-0 p-0">
+          <li class="breadcrumb-item"><a href="#" class="text-success">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Compra Efetuada</li>
+       </ol>
+    </div>
+  </nav>
+  <!-- content -->
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6">
+       <div class="p-5 text-center">
+          <i class="icofont-check-circled display-1 text-white"></i>
+          <h1 class="text-white font-weight-bold">Obrigado por comprar conosco 🎉</h1>
+          <p class="text-white">Verifique o  <a [routerLink]="['/my-order']" class="font-weight-bold text-decoration-none text-white">Status do seu pedido</a> próximas informações .</p>
+       </div>
+       <!-- continue -->
+       <div class="bg-white rounded p-3 m-5 text-center">
+          <h6 class="font-weight-bold mb-2">Preparando o seu pedido</h6>
+          <p class="small text-muted">Seu pedido será preparado e chegará em breve</p>
+          <a [routerLink]="['/status-onprocess']" class="btn rounded btn-warning btn-lg btn-block">Rastrear o meu pedido</a>
+       </div>
+    </div>
+  </div>
+  </body>
+

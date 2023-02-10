@@ -1,0 +1,33 @@
+<div class="osahan-promos" *ngIf="offers.length > 0" >
+  <!-- <div class="d-flex align-items-center mb-3 ">
+    <h5 class="m-0">Campanhas</h5>
+    <a
+      [routerLink]="['/promos']"
+      class="ml-auto btn btn-outline-success btn-sm"
+      >Ver Mais</a
+    >
+  </div> -->
+  <div class="promo-slider pb-0 mb-0 ">
+    <div>
+      <div class="uk-position-relative uk-light" uk-slideshow="animation: push">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="max-height: 400">
+
+          <ul class="uk-slideshow-items ">
+            <li *ngFor="let o of offers">
+              <img class="slide" (click)="clickImagem(o.rota)" src="{{o.imagem}}">
+            </li>
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+      </div>
+
+        <div class="navegacao uk-position-bottom-center uk-position-small">
+          <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

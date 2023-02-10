@@ -1,0 +1,99 @@
+p {
+  margin-top: 4px;
+}
+
+.informação-produto {
+  word-wrap: break-word;
+  color: inherit;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+}
+
+.desconto {
+  width: 29px;
+  height: 33px;
+  font-size: 9px;
+  text-align: center;
+  background: #702e2e;
+  background-size: contain;
+  color: white;
+  border-radius: 50%;
+  margin-left: -24px;
+
+}
+
+.imagem {
+  max-height: 100%;
+  max-width: auto;
+
+}
+
+.toda-caixa {
+  height: 75%;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.barra-pesquisa {
+  overflow: scroll;
+}
+
+.card-produto {
+  margin-left: -20px;
+}
+
+.ver-mais {
+  padding-left: 30px;
+  text-align: center;
+}
+
+.preco {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 0.75rem;
+}
+
+.preco-max {
+  text-decoration: line-through;
+}
+
+.nome-produto {
+  font-size: .875rem;
+  font-weight: 700;
+
+}
+
+.descricao-valor {
+  margin-right: 40px;
+}
+
+.descricao-valor h6 {
+  font-size: 13px;
+}
+
+.uk-text-meta {
+  font-size: 0.700rem;
+  font-weight: 100;
+}
+
+.uk-text-rigth {
+  font-weight: 100;
+
+}
+
+.price {
+
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.price h6 {
+  font-size: 1rem;
+}

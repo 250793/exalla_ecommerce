@@ -1,0 +1,96 @@
+<body class="fixed-bottom-padding">
+  <!-- bread_cum -->
+  <nav aria-label="breadcrumb" class="breadcrumb mb-0">
+    <div class="container">
+       <ol class="d-flex align-items-center mb-0 p-0">
+          <li class="breadcrumb-item"><a [routerLink]="['']" class="text-success">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Termos & Privacidade</li>
+       </ol>
+    </div>
+ </nav>
+ <!-- body -->
+ <section class="py-4 osahan-main-body">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4">
+             <div class="osahan-account bg-white rounded shadow-sm overflow-hidden">
+                <div class="p-4 profile text-center border-bottom">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXSTblEVkkdJh15jlAbC3FpvuzCKb1o-pQQA&usqp=CAU" class="img-fluid rounded-pill">
+                   <h6 class="font-weight-bold m-0 mt-2">Caliny Pontes</h6>
+                   <p class="small text-muted m-0">caliny@gmail.com</p>
+                </div>
+                <div class="account-sections">
+                   <ul class="list-group">
+                      <a [routerLink]="['/my-account']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex align-items-center p-3">
+                            <i class="icofont-user osahan-icofont bg-danger"></i>Minha Conta
+                            <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+                         </li>
+                      </a>
+                      <a [routerLink]="['/promos']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex align-items-center p-3">
+                            <i class="icofont-sale-discount osahan-icofont bg-success"></i>Campanhas
+                            <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+                         </li>
+                      </a>
+                      <a [routerLink]="['/my-address']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex align-items-center p-3">
+                            <i class="icofont-address-book osahan-icofont bg-dark"></i>Meu Endereço
+                            <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+                         </li>
+                      </a>
+                      <a [routerLink]="['/terms-conditions']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex align-items-center p-3">
+                            <i class="icofont-info-circle osahan-icofont bg-primary"></i>Termos, Privacidade e Políticas
+                            <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+                         </li>
+                      </a>
+                      <a [routerLink]="['/help-support']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex align-items-center p-3">
+                            <i class="icofont-phone osahan-icofont bg-warning"></i>Suporte
+                            <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+                         </li>
+                      </a>
+                      <a [routerLink]="['/help-ticket']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex align-items-center p-3">
+                            <i class="icofont-phone osahan-icofont bg-success"></i>Sugestões
+                            <span class="badge badge-success p-1 badge-pill ml-auto"><i class="icofont-simple-right"></i></span>
+                         </li>
+                      </a>
+                      <a [routerLink]="['/signin']" class="text-decoration-none text-dark">
+                         <li class="border-bottom bg-white d-flex  align-items-center p-3">
+                            <i class="icofont-lock osahan-icofont bg-danger"></i> Sair
+                         </li>
+                      </a>
+                   </ul>
+                </div>
+             </div>
+          </div>
+          <div class="col-lg-8 p-4 bg-white rounded shadow-sm">
+             <h4 class="mb-4 profile-title">Termos & Privacidade</h4>
+             <div class="help_support">
+                <div class="mb-1">
+                   <a [routerLink]="['/terms-conditions']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100" type="button">
+                   Termos e Condições
+                   <i class="text-success icofont-rounded-right ml-auto"></i>
+                   </button></a>
+                </div>
+                <div class="mb-1">
+                   <a [routerLink]="['/privacy']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100" type="button">
+                   Privacidade
+                   <i class="text-success icofont-rounded-right ml-auto"></i>
+                   </button></a>
+                </div>
+                <div class="mb-1">
+                   <a [routerLink]="['/faq']" class="text-decoration-none"><button class="p-3 btn-light border d-flex align-items-center btn w-100" type="button">
+                   Nossas Lojas
+                   <i class="text-success icofont-rounded-right ml-auto"></i>
+                   </button></a>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+</body>
+

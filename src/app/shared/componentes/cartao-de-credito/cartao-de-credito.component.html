@@ -1,0 +1,33 @@
+<form>
+  <div class="form-row">
+    <div class="col-md-12 form-group">
+      <label class="form-label font-weight-bold small">Número do Cartão</label>
+      <div class="input-group">
+        <input (blur)="getCardFlag($event)" placeholder="Só Números" type="text"
+          mask="0000.0000.0000.0000" class="busca-cartao">
+        <div class="bandeira-do-cartao col-md-4 form-group"><label
+            class=" form-label font-weight-bold small">Bandeira do Cartão</label></div>
+      </div>
+    </div>
+    <div class="col-md-8 form-group"><label class="form-label font-weight-bold small">Data
+        de
+        Validade(MM/AA)</label><input placeholder="Data de Validade(MM/AA)" mask='99/99'
+        type="text" class="form-control"></div>
+    <div class="col-md-4 form-group"><label
+        class="form-label font-weight-bold small">CVC</label><input
+        placeholder="Número CVC" type="text" mask="999" class="form-control"></div>
+    <div class="col-md-12 form-group"><label
+        class="form-label font-weight-bold small">Nome
+        igual do Cartão</label><input placeholder="Nome igual do Cartão" type="text"
+        class="form-control"></div>
+    <div class="col-md-12 form-group">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" id="custom-checkbox1" class="custom-control-input">
+        <label title="" type="checkbox" for="custom-checkbox1"
+          class="custom-control-label small pt-1">Salve este cartão com segurança para
+          próxima
+          compra</label>
+      </div>
+    </div>
+  </div>
+</form>
